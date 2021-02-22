@@ -22,7 +22,7 @@ syntax of Coq:
   Instance instancename q1 ⋯ qm : classname p1 ⋯ pn := { f1 := t1 ; ⋯ ; fm := tm }.
 
 The ``pi : ti`` variables are called the *parameters* of the class and
-the ``fi : ti`` are called the *methods*. Each class definition gives
+the ``fi : ui`` are called the *methods*. Each class definition gives
 rise to a corresponding record declaration and each instance is a
 regular definition whose name is given by `instancename` and type is an
 instantiation of the record type.
